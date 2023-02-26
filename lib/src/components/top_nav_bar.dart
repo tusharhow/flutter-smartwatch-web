@@ -34,7 +34,7 @@ class TopNavBar extends StatelessWidget {
               height: 80,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: const [
                   Text(
                     "Home",
                     style: TextStyle(
@@ -42,7 +42,7 @@ class TopNavBar extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(width: 30),
+                  SizedBox(width: 30),
                   Text(
                     "About",
                     style: TextStyle(
@@ -50,7 +50,7 @@ class TopNavBar extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(width: 30),
+                  SizedBox(width: 30),
                   Text(
                     "Smartphone",
                     style: TextStyle(
@@ -58,7 +58,7 @@ class TopNavBar extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(width: 30),
+                  SizedBox(width: 30),
                   Text(
                     "Store",
                     style: TextStyle(
@@ -66,7 +66,7 @@ class TopNavBar extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(width: 30),
+                  SizedBox(width: 30),
                   Text(
                     "Contact",
                     style: TextStyle(
